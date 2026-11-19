@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: @sd-ocean
 - Repo bài nộp (URL): https://github.com/sd-ocean/K5-L23-DAY08-2A202603274-TranThuHuyen-AI-Assisted-Labeling
-- Commit chốt bài (hash): Chưa có; các thay đổi hiện tại chưa được commit
+- Commit chốt bài (hash): dc8238c
 - Máy: Windows local; inference trên Google Colab GPU Tesla T4
 - CVAT (Docker): 2.74.1
 
