@@ -1,3 +1,3 @@
 step,images,minutes,note
-
-gold_manual, 4, 27 phút, gán tay 4 ảnh trong CVAT
+gold_manual,4,27,"gán tay 4 ảnh trong CVAT"
+batch_review,24,100,"review 24 ảnh trong CVAT"

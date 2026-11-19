@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_013,loi_may,"YOLO26 gán tuk-tuk thành car, ví dụ điểm 0.42","Giữ three_wheeler theo định nghĩa/số bánh; không dùng chỉnh conf để sửa nhầm lớp","Mục 2: lỗi phân lớp không được sửa bằng threshold; kiểm tra taxonomy theo số bánh",v1.1
+CAL-02,img_013,cau_hoi_mo,"Mask SAM chồng lên người nhìn thấy trong khoang tuk-tuk","Mask xe gồm cấu trúc xe nhìn thấy; người nhìn thấy là instance person riêng; thêm click âm hoặc chỉnh mask khi bị dính","Mục 4.2.4: không gộp pixel người vào mask xe",v1.1
+CAL-03,img_023,can_review,"Annotation #267 bus cao 15.1 px, thấp hơn min_box_height_px=20","Không giữ vật đơn lẻ dưới 20 px; chỉ gộp thành ignore_region nếu là cụm ít nhất 5 vật nhỏ sát nhau","Mục 4.1.6: nêu rõ không gán vật nhỏ riêng lẻ; ignore_region chỉ cho cụm đạt điều kiện",v1.1

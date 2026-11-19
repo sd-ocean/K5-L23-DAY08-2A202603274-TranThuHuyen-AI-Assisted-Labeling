@@ -1,19 +1,19 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
-- Tài khoản GitHub: <<>>
-- Repo bài nộp (URL): <<>>
-- Commit chốt bài (hash): <<>>
-- Máy: <<hệ điều hành, GPU (CUDA / MPS / không có)>>
-- CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>
+- Họ và tên: Trần Thu Huyền
+- MSHV: 2A202603274
+- Lớp (L2 / L3 / khác): L2
+- Tài khoản GitHub: @sd-ocean
+- Repo bài nộp (URL): https://github.com/sd-ocean/K5-L23-DAY08-2A202603274-TranThuHuyen-AI-Assisted-Labeling
+- Commit chốt bài (hash): Chưa có; các thay đổi hiện tại chưa được commit
+- Máy: Windows local; inference trên Google Colab GPU Tesla T4
+- CVAT (Docker): 2.74.1
 
-## Kết quả tóm tắt (điền cuối bài; số lấy từ `submission/qc/*`, kèm mẫu số)
+## Kết quả tóm tắt
 
-- Máy: accepted / edited / deleted: <<... / ... / ... (mẫu số: ... box máy)>>; added: <<... (mẫu số: ... đối tượng)>>
-- So với gold: precision / recall của **máy** <<... / ...>>
-- Bắt bẫy: <<.../12 = ...%>>
-- Thời gian: gán tay <<... phút/ảnh>>; duyệt có pre-label <<... phút/ảnh>>
-- Lỗi QC: <<...% theo ảnh (.../...)>>, <<...% theo đối tượng (.../...)>>
-- **Quyết định:** <<Release / Hold / Rework>> — lý do một dòng: <<...>>
+- Máy: accepted 328/487 = 67.4%; edited 87/487 = 17.9%; deleted 72/487 = 14.8%; added 52/467 = 11.1%.
+- So với gold: precision 46/63 = 73.0%; recall 46/56 = 82.1% (4 ảnh gold).
+- Bắt bẫy: 10/12 = 83.3%.
+- Thời gian: gán tay 27/4 = 6.75 phút/ảnh; duyệt có pre-label 100/24 = 4.17 phút/ảnh.
+- QC: 0/6 ảnh có lỗi, 0/101 đối tượng lỗi; cận trên Wilson 95% của tỷ lệ ảnh lỗi là 39%.
+- **Quyết định:** Release theo QC hiện có; mẫu nhỏ không chứng minh được tỷ lệ lỗi thật dưới ngưỡng 2%.
